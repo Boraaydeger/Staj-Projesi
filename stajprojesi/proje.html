@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staj Projesi</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+
+.baslik {
+  position: relative;
+  width: 100%; 
+  height: 500px; 
+  background-image: url('eller.png');
+  background-size: 100% 100%; 
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+
+
+     
+
+  </style>
+</head>
+
+<body class="bg-white-50 font-sans">
+
+
+  <header class="baslik" class="bg-yellow-500 text-white text-center py-8 sm:py-16">
+    <h1 class="text-4xl font-bold" style=" text-align: center; line-height: 1.2; padding-top: 100px;">Let’s create something <br>
+      great together.</h1>
+  </header>
+
+  <section class="text-center py-12 px-6">
+    <h2 class="text-2xl font-semibold">Who we are</h2>
+    <p class="mt-4 text-gray-600" style="text-align: left;">
+      We love what we do and create partnerships with our clients to ensure
+      their digital transformation is positioned for long-term success.
+      We believe that the human dimensions essential to start any successful
+      project and that this is where splendid emotional relationships between the company and peope are born.
+    </p>
+    <div class="flex justify-center mt-8">
+      <img src="WhatsApp Image 2024-11-30 at 12.36.17.jpeg" width="80%" alt="Product" class="rounded-lg shadow-lg">
+    </div>
+  </section>
+
+  
+  <section class="py-12 bg-yellow-100">
+    <h2 class="text-center text-2xl font-semibold">Meet the heroes behind the magic</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8 px-6">
+      <div class="text-center bg-white p-4 rounded-lg shadow-md">
+        <img
+          src="DALL·E 2024-11-29 18.22.57 - A cartoon-style animated illustration of a woman sitting cross-legged while using a laptop. The woman has a friendly expression, wearing casual clothe copy.webp"
+          width="200px" alt="Esther Howard" class="rounded-full mx-auto">
+        <h3 class="text-lg font-bold mt-4">Esther Howard</h3>
+        <p class="text-gray-500">Founder</p>
+      </div>
+      <div class="text-center bg-white p-4 rounded-lg shadow-md">
+        <img
+          src="DALL·E 2024-11-29 18.24.49 - A cartoon-style animated illustration of a man standing while holding a smartphone and looking at it. The man has a friendly expression, wearing moder.webp"
+          width="200px" alt="Cody Fisher" class="rounded-full mx-auto">
+        <h3 class="text-lg font-bold mt-4">Cody Fisher</h3>
+        <p class="text-gray-500">Developer</p>
+      </div>
+      <div class="text-center bg-white p-4 rounded-lg shadow-md">
+        <img src="WhatsApp Image 2024-11-29 at 20.30.40.jpeg" width="200px" alt="Brooklyn Simmons" class="rounded-full mx-auto">
+        <h3 class="text-lg font-bold mt-4">Brooklyn Simmons</h3>
+        <p class="text-gray-500">Designer</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="bg-black text-white py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 text-center px-6">
+      <div>
+        <h3 class="text-3xl font-bold" style="color: #feb236;">350+</h3>
+        <p >Clients Worldwide</p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-bold" style="color: #feb236;">20+</h3>
+        <p>Team Members</p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-bold" style="color: #feb236;">100+</h3>
+        <p>Projects Completed</p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-bold" style="color: #feb236;">85M+</h3>
+        <p>Revenue Generated</p>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  <section class="py-12 px-6">
+    <div class="max-w-5xl mx-auto p-10 flex flex-col sm:flex-row items-center gap-12">
+      
+      <div class="w-full sm:w-1/2 h-[30rem] flex items-center"> 
+        <div class="bg-amber-50 rounded-lg p-4 w-full h-full">
+          <img src="formfotosu.png" alt="Team Photo" class="w-full h-full object-cover rounded-md">
+        </div>
+      </div>
+  
+      
+      <div class="w-full sm:w-1/2 h-[30rem] flex items-center"> 
+        <div class="bg-white p-6 rounded-lg shadow-lg w-full h-full overflow-hidden">
+          <h2 class="text-2xl font-semibold mb-6 text-gray-900">We’d love to hear from you</h2>
+          <form action="#" method="post" class="flex flex-col h-full justify-between space-y-4">
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 font-bold">Name*</label>
+              <input type="text" id="name" name="name" required class="w-full px-4 py-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 font-bold">Email*</label>
+              <input type="email" id="email" name="email" required class="w-full px-4 py-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+              <label for="website" class="block text-gray-700 font-bold">Website URL*</label>
+              <input type="url" id="website" name="website" required class="w-full px-4 py-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+              <label for="details" class="block text-gray-700 font-bold">Project Details*</label>
+              <textarea id="details" name="details" required class="w-full px-4 py-2 border rounded-lg"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-black text-white py-2 rounded-lg font-bold hover:bg-gray-800">
+              Send Proposal
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+</body>
+
+</html>
